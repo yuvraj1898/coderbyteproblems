@@ -5,7 +5,7 @@ import ThemeContextProvider from './Context/ThemeContextProvider';
 
 function App() {
   const navigate =useNavigate();
-  const components=['ButtonToggle','Counterincrement','ColorDropDown','LiveParagraph','WeatherDashboard','TaskDashboard','Todo','ShipSchedule'];
+  const components=['ButtonToggle','Counterincrement','ColorDropDown','LiveParagraph','WeatherDashboard','TaskDashboard','Todo','ShipSchedule','EmpCrud'];
   return (
     <>
     <ThemeContextProvider>

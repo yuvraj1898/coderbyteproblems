@@ -14,6 +14,7 @@ import Header from './Components/Header';
 import TaskDashboard from './Components/TaskDashboard';
 import Todo from './Solutions/Todo';
 import ShipSchedule from './Solutions/ShipSchedule';
+import EmpCrud from './Solutions/EmpCrud';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +32,7 @@ root.render(
     <Route path='/TaskDashboard' element={<TaskDashboard/>}/>
     <Route path='/Todo' element={<Todo/>}/>
     <Route path='/ShipSchedule' element={<ShipSchedule/>}/>
+    <Route path='/EmpCrud' element={<EmpCrud/>}/>
     </Routes>
     </Router>
     </ThemeContextProvider>
